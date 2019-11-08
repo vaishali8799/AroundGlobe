@@ -1,0 +1,81 @@
+body{
+ 
+ font-family: sans-serif;
+ background:linear-gradient(rgba(22, 85, 80, 0.7),rgba(0, 0, 0, 0.7)),url('../setup-files/images/main.jpeg') center/cover no-repeat fixed;
+
+ 
+ 
+ 
+
+}
+
+
+.loginbox{
+ width: 320px;
+ height: 420px;
+ background:#ececec;
+ color:rgb(12, 199, 183);
+ transition: all 0.4s linear;
+ 
+ top: 50%;
+ left: 50%;
+ position: absolute;
+ transform: translate(-50%,-50%);
+ box-sizing: border-box;
+ padding:70px 30px ;
+ 
+}
+
+.avatar{
+ width: 100px;
+ height: 100px;
+ border-radius: 52%;
+ position: absolute;
+ transition: all 0.4s linear;
+ top: -40px;
+ left:35%;
+ 
+}
+.avatar:hover{
+ transform: scale(1.2);
+}
+h3{
+ margin:0;
+ padding: 0 0 20px;
+ text-align: center;
+ font-size: 22px;
+ 
+
+}
+.loginbox p{
+ margin: 0;
+ padding:0;
+ font-weight: bold;
+
+
+}
+.loginbox input{
+ width: 100%;
+ margin-bottom: 20px;
+}
+.login{
+ background:rgb(12, 199, 183);
+ outline: none;
+ border: none;
+ font-size: 1.2rem;
+ color:#fff;
+ letter-spacing: 0.13rem;
+}
+a{
+ text-decoration: none;
+ color:rgb(12, 199, 183);;
+ font-size: 14px;
+}
+.input{
+ background: transparent;
+ font-size: bold;
+ letter-spacing: 0.17rem;
+}
+p{
+ margin-bottom: 1rem;
+}

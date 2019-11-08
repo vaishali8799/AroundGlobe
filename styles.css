@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Ubuntu&display=swap');
+:root{
+ --primaryColor:rgb(12, 199, 183);
+ --mainWhite:#fff;
+ --offWhite:#f7f7f7;
+ --mainblack:#222;
+ --mainGrey:#ececec;
+ --darkGrey:#afafaf;
+ --mainTransition: all 0.4s linear;
+ --letterSpacing:0.2rem;
+ --lightShadow:2px 5px 3px 0 rgba(0,0,0,0.25);
+ --darkShadow:4px 10px 5px 0 rgba(0,0,0,0.5);
+;}
+body{
+ font-family: 'Lato', sans-serif;
+ color:var(--mainblack);
+ background: var(--offWhite)
+ ;
+ line-height:1.4;
+ font-size: 1.3rem;
+
+}
+h1,h2,h3,h4,h5,h6{
+ font-family: 'Ubuntu', sans-serif;
+margin-bottom: 1.4rem;
+letter-spacing: var(--letterSpacing);}
+.btn-primary{
+ text-transform: uppercase;
+ letter-spacing: var(--letterSpacing);
+ color: var(--mainWhite);
+ border:2px solid  var(--mainWhite);
+ display: inline-block;
+ padding:0.9rem 1.7rem;
+ cursor: pointer;
+ margin-top: 2rem;
+ 
+}
+.btn-primary{
+ background: var(--primaryColor);
+ color: var(--mainWhite);
+ border-color: var(--primaryColor);
+}
+
+.section{
+ padding:1rem 0;
+}
+.title-wrapper{
+ margin-bottom: 2rem;
+}
+.title{
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 3.1rem;
+ letter-spacing: 0.2rem;
+
+}
+.subtitle{
+ color:var(--primaryColor);
+
+ 
+}
+.section-center{
+ width: 70vw;
+ margin:4rem auto 2rem auto;
+ max-width: 1170px;
+}
+.about{
+ background: var(--mainWhite);
+
+}
+.about-photo{
+ width: 999px;
+ height: 576px;
+}
+.about-img,
+.about-info{
+ margin-bottom: 2rem;
+ text-align: center;
+}
+h2{
+ text-transform: uppercase;
+ 
+}
+a{
+ text-decoration: none;
+ font-size: 1.6rem;
+}
